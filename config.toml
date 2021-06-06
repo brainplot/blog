@@ -18,6 +18,7 @@ which led me to automate most things in my daily life.
 """
 profilePicture = "/images/me.jpg"
 rssFullContent = true
+contentratio = 0.75
 
 [outputs]
 home = ["HTML"]
