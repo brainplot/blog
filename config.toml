@@ -1,0 +1,56 @@
+baseURL = "https://gianlucarecchia.dev/"
+languageCode = "en-us"
+title = "Blog"
+theme = "anatole"
+enableEmoji = true
+
+[params]
+title = "Gianluca Recchia"
+author = "Gianluca Recchia"
+description = """
+Hi there! I'm Gianluca Recchia, a developer, system administrator and DevOps
+trainer from Italy.
+I'm very passionate about the inner bits and bolts of computers and I love
+low-level languages such as C, C++ and Rust, which I use for my personal
+projects.
+I love all things Unix and I have decent experience managing Linux systems,
+which led me to automate most things in my daily life.
+"""
+profilePicture = "/images/me.jpg"
+rssFullContent = true
+
+[outputs]
+home = ["HTML"]
+section = ["HTML", "RSS"]
+taxonomy = ["HTML"]
+term = ["HTML"]
+
+[[params.socialIcons]]
+icon = "fab fa-github"
+title = "GitHub"
+url = "https://github.com/brainplot"
+
+[[params.socialIcons]]
+icon = "fab fa-linkedin"
+title = "Linkedin"
+url = "https://www.linkedin.com/in/gianluca-recchia"
+
+[[params.socialIcons]]
+icon = "fab fa-stack-overflow"
+title = "Stack Overflow"
+url = "https://stackoverflow.com/users/6335279"
+
+[[params.socialIcons]]
+icon = "fab fa-twitter"
+title = "Twitter"
+url = "https://twitter.com/brainplot"
+
+[[params.socialIcons]]
+icon = "fas fa-envelope"
+title = "E-Mail"
+url = "mailto:gianluca.recchia@protonmail.com"
+
+[[params.socialIcons]]
+icon = "fas fa-key"
+title = "GPG Key"
+url = "/pgp/public.key.asc"
